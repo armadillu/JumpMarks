@@ -70,14 +70,14 @@ static JumpMarks *sharedPlugin;
 		[clearMarks setKeyEquivalentModifierMask:NSAlternateKeyMask];
         clearMarks.target = self;
         
-        NSMenuItem *prevMark = [submenu addItemWithTitle:@"Jump To Prev Mark" action:@selector(jumpToPrevMark:) keyEquivalent:@"["];
-        [prevMark setKeyEquivalentModifierMask:NSAlternateKeyMask];
-        prevMark.target = self;
-        
-        NSMenuItem *nextMark = [submenu addItemWithTitle:@"Jump To Next Mark" action:@selector(jumpToNextMark:) keyEquivalent:@"]"];
-        [nextMark setKeyEquivalentModifierMask:NSAlternateKeyMask];
-        nextMark.target = self;
-        
+//        NSMenuItem *prevMark = [submenu addItemWithTitle:@"Jump To Prev Mark" action:@selector(jumpToPrevMark:) keyEquivalent:@"["];
+//        [prevMark setKeyEquivalentModifierMask:NSAlternateKeyMask];
+//        prevMark.target = self;
+//        
+//        NSMenuItem *nextMark = [submenu addItemWithTitle:@"Jump To Next Mark" action:@selector(jumpToNextMark:) keyEquivalent:@"]"];
+//        [nextMark setKeyEquivalentModifierMask:NSAlternateKeyMask];
+//        nextMark.target = self;
+
         [submenu addItem:[NSMenuItem separatorItem]];
 
         // Toggle mark shortcuts
